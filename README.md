@@ -1,4 +1,4 @@
-# JSON bourne shell
+# JSON Bourne shell
 
 This is a fork of the [jason-bourne-shell](https://github.com/bostonaholic/jason-bourne-shell) project.
 
