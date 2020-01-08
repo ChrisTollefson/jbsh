@@ -1,4 +1,4 @@
-# jbsh
+# jsonbash — The JSON Bourne Again Shell
 
 This is a fork of the [json-bourne-shell](https://github.com/Breton/json-bourne-shell) project,
 which is a fork of the [jason-bourne-shell](https://github.com/bostonaholic/jason-bourne-shell) project,
