@@ -1,5 +1,5 @@
-# JSON Bourne shell
+# jbsh
 
-This is a fork of the [jason-bourne-shell](https://github.com/bostonaholic/jason-bourne-shell) project.
+This is a fork of the [json-bourne-shell](https://github.com/Breton/json-bourne-shell) project.
 
-I'm not sure what the json-bourne-shell project does yet, but I'm pretty excited about the name.
+I'm not sure what the jbsh project does yet, but I'm pretty excited about the name.
