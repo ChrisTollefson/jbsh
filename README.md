@@ -1,21 +1,34 @@
 # jsonbash — The JSON Bourne Again Shell
 
-This is a fork of the [json-bourne-shell](https://github.com/Breton/json-bourne-shell) project,
-which is a fork of the [jason-bourne-shell](https://github.com/bostonaholic/jason-bourne-shell) project,
-which is a fork of the [matt-daemon](https://github.com/searls/matt-daemon) project.
+`jsonbash` is a JavaScript shell.
+
+
+## So it's actually JavaScript, not JSON?
+
+OK, you got me, it's not JSON (at least insofar as JSON isn't JavaScript).
+
+
+## Then why is it *called JSON* Bourne Again Shell?
 
 I'm not sure what the jsonbash project does yet, but I'm pretty excited about the name.
 
 
-## Has it been done before?
+## Wait — is this shell just the Node.js REPL?
+
+Yeah.
+
+
+## Hasn't that been done before?
 
 [Yes](<https://stackoverflow.com/questions/33850903/use-node-js-as-shell> "Stack Overflow: Use Node.js as Shell").
 
 
-## Is this useless?
+## So is `jsonbash` basically useless?
 
 AFAICT, yes.
 
+
+---
 
 ## Unrelated but probably more useful things:
 
@@ -122,6 +135,12 @@ AFAICT, yes.
 [www]: <https://user-images.githubusercontent.com/30203863/72025848-58290d00-3271-11ea-9b61-be54729b24d4.png> "WWW"
 
 
+## This project is based upon:
+
+- The [matt-daemon](<https://github.com/searls/matt-daemon> "GitHub: searls/matt-daemon") project
+  - The [jason-bourne-shell](<https://github.com/bostonaholic/jason-bourne-shell> "GitHub: bostonaholic/jason-bourne-shell") project
+    - The [json-bourne-shell](<https://github.com/Breton/json-bourne-shell> "GitHub: Breton/json-bourne-shell") project
+
 ---
 
 This idea was previously mentioned on
@@ -137,6 +156,6 @@ by [Steve Parker (@unixsteve)](<https://twitter.com/unixsteve> "Twitter: Steve P
      width="50%"
 />
 
-(Poster based on
+(Image based on
 [Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks](<https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd> "Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks")
 by [Vincent Mühler](<https://medium.com/@muehler.v> "Medium: Vincent Mühler")).
