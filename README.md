@@ -1,4 +1,4 @@
-# jsonbash — The JSON Bourne Again Shell
+# `jsonbash` — The JSON Bourne Again Shell
 
 `jsonbash` is a JavaScript shell.
 
