@@ -61,16 +61,26 @@ This change in macOS was perhaps due to the [licensing] of GNU Bash: version 4 (
 
 But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple has been removing specifically GPL-licensed software packages from macOS as of [Mac OS X Leopard (10.5)][Leopard] (or earlier?):
 
-| macOS version | Number of GPL-licensed packages |
-|---------------|---------------------------------|
-| 10.5          | 47
-| 10.6          | 44
-| 10.7          | 29
-| 10.8          | 22
-| 10.9          | 19
-| 10.10         | 18
-| 10.11         | 16
-| 10.12         | 16
+| macOS version           | Number of GPL-licensed packages |
+|-------------------------|---------------------------------|
+| 10.5  — [Leopard]       | 47
+| 10.6  — [Snow Leopard]  | 44
+| 10.7  — [Lion]          | 29
+| 10.8  — [Mountain Lion] | 22
+| 10.9  — [Mavericks]     | 19
+| 10.10 — [Yosemite]      | 18
+| 10.11 — [El Capitan]    | 16
+| 10.12 — [Sierra]        | 16
+
+[Leopard]: <https://en.wikipedia.org/wiki/Mac_OS_X_Leopard> "Wikipedia: Mac OS X Leopard"
+[Snow Leopard]: <https://en.wikipedia.org/wiki/Mac_OS_X_Snow_Leopard> "Wikipedia: Mac OS X Snow Leopard"
+[Lion]: <https://en.wikipedia.org/wiki/Mac_OS_X_Lion> "Wikipedia: Mac OS X Lion"
+[Mountain Lion]: <https://en.wikipedia.org/wiki/OS_X_Mountain_Lion> "Wikipedia: OS X Mountain Lion"
+[Mavericks]: <https://en.wikipedia.org/wiki/OS_X_Mavericks> "Wikipedia: OS X Mavericks"
+[Yosemite]: <https://en.wikipedia.org/wiki/OS_X_Yosemite> "Wikipedia: OS X Yosemite"
+[El Capitan]: <https://en.wikipedia.org/wiki/OS_X_El_Capitan> "Wikipedia: OS X El Capitan"
+[Sierra]: <https://en.wikipedia.org/wiki/MacOS_Sierra> "Wikipedia: MacOS Sierra"
+
 
 Maybe that's a coincidence, but the switch to zsh as the default could foreshadow bash's eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of bash would be unfortunate for developers on macOS and for interoperability between operating systems generally.
 
@@ -92,7 +102,7 @@ And I would concur, based on some of the open-source projects listed there, or p
 [![github]][github/swift]    [Swift][www/swift] — Programming language                            | [Apache] (2.0)
 [![trac]][trac/webkit]       [WebKit][www/webkit] — Browser engine | [LGPL] (2.1)<br>[BSD] (2-clause)
 [![github]][github/xnu]      [XNU][www/xnu] — Darwin kernel                                       | [APSL] (2.0)
-[![github]][github/xorg-server] [XQuartz][www/xquartz] display server and<br>[![github]][github/quartz-wm] Window manager | [BSD], [MIT] [variants]<br>[APSL] (2.0)
+[![github]][github/xorg-server] [XQuartz][www/xquartz] display server and<br>[![github]][github/quartz-wm] Window manager | [BSD], [MIT], [variants]<br>[APSL] (2.0)
 
 [github/alac]: <https://github.com/macosforge/alac> "GitHub: macosforge/alac"
 [www/alac]: <https://macosforge.github.io/alac/> "WWW: Apple Lossless Audio Codec"
@@ -173,7 +183,6 @@ This situation might be similar to that of the original [Bourne shell][sh], whos
 
 [Apple]: <https://en.wikipedia.org/wiki/Apple_Inc.> "Wikipedia: Apple Inc."
 [macOS]: <https://en.wikipedia.org/wiki/MacOS> "Wikipedia: MacOS"
-[Leopard]: <https://en.wikipedia.org/wiki/Mac_OS_X_Leopard> "Wikipedia: Mac OS X Leopard"
 [Catalina]: <https://en.wikipedia.org/wiki/MacOS_Catalina> "Wikipedia: MacOS Catalina"
 [shell]: <https://en.wikipedia.org/wiki/Shell_(computing)> "Wikipedia: Shell (computing)"
 [switching]: <https://support.apple.com/HT208050> "Apple Support: Use zsh as the default shell on your Mac"
@@ -439,3 +448,10 @@ by [Steve Parker (@unixsteve)](<https://twitter.com/unixsteve> "Twitter: Steve P
 (Image based on
 [Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks](<https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd> "Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks")
 by [Vincent Mühler](<https://medium.com/@muehler.v> "Medium: Vincent Mühler").)
+
+## License
+
+Copyright © 2020 [`jsonbash` authors and contributors](https://github.com/ChrisTollefson/jsonbash/commits).
+
+Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+See [LICENSE.md](https://github.com/ChrisTollefson/jsonbash/blob/master/LICENSE.md).
