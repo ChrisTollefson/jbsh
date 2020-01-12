@@ -97,12 +97,12 @@ And I would concur, based on some of the open-source projects listed there, or p
 [![github]][github/alac]     [ALAC][www/alac] — Apple Lossless Audio Codec                        | [Apache] (2.0)
 [![www]][source/bonjour]     [Bonjour][www/bonjour] mDNSResponder — Zero-configuration networking | [Apache] (2.0)
 [![github]][github/cups]     [CUPS][www/cups] — Common UNIX Printing System                       | [Apache] (2.0)
-[![www]][source/darwin]      [Darwin][www/darwin] — macOS/iOS core OS                             | partial [APSL]
+[![www]][source/darwin]      [Darwin][www/darwin] — macOS/iOS core operating system               | partial [APSL]
 [![github]][github/macports] [MacPorts][www/macports] — Package manager                           | [BSD] (3-clause)
 [![github]][github/swift]    [Swift][www/swift] — Programming language                            | [Apache] (2.0)
 [![trac]][trac/webkit]       [WebKit][www/webkit] — Browser engine | [LGPL] (2.1)<br>[BSD] (2-clause)
 [![github]][github/xnu]      [XNU][www/xnu] — Darwin kernel                                       | [APSL] (2.0)
-[![github]][github/xorg-server] [XQuartz][www/xquartz] display server and<br>[![github]][github/quartz-wm] Window manager | [BSD], [MIT], [variants]<br>[APSL] (2.0)
+[![github]][github/xorg-server] [XQuartz][www/xquartz] — Display server<br>[![github]][github/quartz-wm] Window manager | [BSD], [MIT], [variants]<br>[APSL] (2.0)
 
 [github/alac]: <https://github.com/macosforge/alac> "GitHub: macosforge/alac"
 [www/alac]: <https://macosforge.github.io/alac/> "WWW: Apple Lossless Audio Codec"
@@ -139,7 +139,7 @@ Most of those licenses are [permissive] (which I favor), and I don't even have a
 
 So if we have to switch to a different shell anyway, then why not try one in JavaScript, especially with its growing popularity for application development, not to mention its ubiquitous use on the Web?
 
-Fortunately, [![github] Matt Daemon][github/matt-daemon] (April 2012) has already been developed.  This is not to be confused with later Matt Daemons, such as:
+Fortunately, [Matt Daemon][github/matt-daemon] (April 2012) has already been developed.  This is not to be confused with later Matt Daemons, such as:
 
 - [![github]][github/mattd.core] [![pypi]][pypi/mattd.core] mattd.core — Matt Daemon (August 2012):
   - A Python voice-to-text driven plugin system.
@@ -158,7 +158,7 @@ Fortunately, [![github] Matt Daemon][github/matt-daemon] (April 2012) has alread
 - [![github]][github/matt-daemon (3)] [![pypi]][pypi/matt-daemon (3)] matt-daemon (2019):
   - A Python implementation of the Node.js matt-daemon HTTP daemon.
 
-The original Matt Daemon was forked and developed into the [![github] Jason Bourne shell][github/jason-bourne-shell], which was itself forked and developed into the [![github] JSON Bourne shell][github/json-bourne-shell].  Unfortunately, the source code for these shells is currently published without a license, and therefore may not be used by anyone other than their respective copyright holders.
+The original Matt Daemon was forked and developed into the [Jason Bourne shell][github/jason-bourne-shell], which was itself forked and developed into the [JSON Bourne shell][github/json-bourne-shell].  Unfortunately, the source code for these shells is currently published without a license, and therefore may not be used by anyone other than their respective copyright holders.
 
 This situation might be similar to that of the original [Bourne shell][sh], whose copyright may be [disputed] as part of [Unix].  This perhaps contributed to the development of the [Bourne Again shell][bash] as an open-source replacement under [GNU].  Similarly, we have developed the [JSON Bourne Again shell][jsonbash] to provide a licensed alternative to the earlier Jason Bourne shell and JSON Bourne shell.
 
