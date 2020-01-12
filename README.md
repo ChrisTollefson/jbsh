@@ -20,7 +20,7 @@ OK, you got me, it's not JSON (at least insofar as [JSON] isn't [JavaScript]).
 
 ### Then why is it *called JSON* Bourne Again Shell?
 
-I'm not sure what the [jsonbash] project does yet, but I'm pretty excited about the name<sup>[[1]][[2]][[3]]</sup>.
+I'm not sure what the [`jsonbash`][jsonbash] project does yet, but I'm pretty excited about the name<sup>[[1]][[2]][[3]]</sup>.
 
 [jsonbash]: <https://github.com/ChrisTollefson/jsonbash> "GitHub: ChrisTollefson/jsonbash"
 [1]: <https://github.com/searls/matt-daemon/blob/master/README.md> "GitHub: searls/matt-daemon/README.md"
