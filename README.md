@@ -451,7 +451,7 @@ by [Vincent Mühler](<https://medium.com/@muehler.v> "Medium: Vincent Mühler").
 
 ## License
 
-Copyright © 2020 [`jsonbash` authors and contributors](https://github.com/ChrisTollefson/jsonbash/commits).
+Copyright © 2020 [`jsonbash` authors and contributors](https://github.com/ChrisTollefson/jsonbash/graphs/contributors).
 
 Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 See [LICENSE.md](https://github.com/ChrisTollefson/jsonbash/blob/master/LICENSE.md).
