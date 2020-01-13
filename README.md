@@ -10,6 +10,11 @@
 TODO
 
 
+## Usage
+
+TODO
+
+
 ## FAQ
 
 ### So it's actually JavaScript, not JSON?
@@ -82,7 +87,7 @@ But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple 
 [Mavericks]: <https://en.wikipedia.org/wiki/OS_X_Mavericks> "Wikipedia: OS X Mavericks"
 [Yosemite]: <https://en.wikipedia.org/wiki/OS_X_Yosemite> "Wikipedia: OS X Yosemite"
 [El Capitan]: <https://en.wikipedia.org/wiki/OS_X_El_Capitan> "Wikipedia: OS X El Capitan"
-[Sierra]: <https://en.wikipedia.org/wiki/MacOS_Sierra> "Wikipedia: MacOS Sierra"
+[Sierra]: <https://en.wikipedia.org/wiki/MacOS_Sierra> "Wikipedia: macOS Sierra"
 
 
 Maybe that's a coincidence and this is speculation, but the switch to Z shell as the default could foreshadow GNU Bash's eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of `bash` would be unfortunate for developers on macOS and for interoperability between operating systems generally.
@@ -97,14 +102,14 @@ And I concur, based on some of the open-source projects listed there, or previou
 
 | Project | License |
 |---------|---------|
-[![github]][github/alac]     [ALAC][www/alac] — Apple Lossless Audio Codec                        | [Apache] (2.0)
-[![www]][source/bonjour]     [Bonjour][www/bonjour] mDNSResponder — Zero-configuration networking | [Apache] (2.0)
-[![github]][github/cups]     [CUPS][www/cups] — Common UNIX Printing System                       | [Apache] (2.0)
-[![www]][source/darwin]      [Darwin][www/darwin] — macOS/iOS core operating system               | [APSL] and others
-[![github]][github/macports] [MacPorts][www/macports] — Package manager                           | [BSD] (3-clause)
-[![github]][github/swift]    [Swift][www/swift] — Programming language                            | [Apache] (2.0)
-[![trac]][trac/webkit]       [WebKit][www/webkit] — Browser engine | [LGPL] (2.1)<br>[BSD] (2-clause)
-[![github]][github/xnu]      [XNU][www/xnu] — Darwin kernel                                       | [APSL] (2.0)
+[![github]][github/alac]         [ALAC][www/alac] — Apple Lossless Audio Codec                        | [Apache] (2.0)
+[![www]][source/bonjour]         [Bonjour][www/bonjour] mDNSResponder — Zero-configuration networking | [Apache] (2.0)
+[![github]][github/cups]         [CUPS][www/cups] — Common UNIX Printing System                       | [Apache] (2.0)
+[![www]][source/darwin]          [Darwin][www/darwin] — macOS/iOS core operating system               | [APSL] and others
+[![github]][github/macports]     [MacPorts][www/macports] — Package manager                           | [BSD] (3-clause)
+[![github]][github/swift]        [Swift][www/swift] — Programming language                            | [Apache] (2.0)
+[![trac]][trac/webkit] [![github] <sub>mirror</sub>][github/webkit] [WebKit][www/webkit] — Browser engine | [LGPL] (2.1)<br>[BSD] (2-clause)
+[![github] <sub>mirror</sub>][github/xnu] [XNU][www/xnu] — Darwin kernel                                       | [APSL] (2.0)
 [XQuartz][www/xquartz] — [![github]][github/xorg-server] Display server and<br>[![github]][github/quartz-wm] Window manager | [BSD], [MIT], [variants]<br>[APSL] (2.0)
 
 [github/alac]: <https://github.com/macosforge/alac> "GitHub: macosforge/alac"
@@ -125,6 +130,7 @@ And I concur, based on some of the open-source projects listed there, or previou
 [github/swift]: <https://github.com/apple/swift> "GitHub: apple/swift"
 [www/swift]: <https://swift.org/> "WWW: Swift"
 
+[github/webkit]: <https://github.com/WebKit/webkit> "GitHub: WebKit/webkit"
 [trac/webkit]: <https://trac.webkit.org/browser> "Trac: WebKit"
 [www/webkit]: <https://webkit.org/> "WWW: WebKit"
 
@@ -147,21 +153,19 @@ Fortunately, [Matt Daemon][github/matt-daemon] (April 2012) has already been dev
 - [![github]][github/mattd.core] [![pypi]][pypi/mattd.core] mattd.core — Matt Daemon (August 2012):
   - A voice-to-text driven plugin system in Python.
 
-- [![github]][github/mattd] mattd — Matt Daemon (2013):
-  - Forked from mattd.core.
+* [![github]][github/mattd] mattd — Matt Daemon (2013):
+  * Forked from mattd.core.
+  * > `$ service mattd status`
+    >
+    >  <sample>Matt Daemon is running.</sample>
+    >
+    > `$ service mattd stop`
+    >
+    > <sample>You can't stop Matt Daemon. Permission denied. [FAILED]</sample>
 
-> `$ service mattd status`
->
->  <sample>Matt Daemon is running.</sample>
->
-> `$ service mattd stop`
->
-> <sample>You can't stop Matt Daemon. Permission denied. [FAILED]</sample>
-
-- [![github]][github/matt-daemon (2)] [![npm]][npm/matt-daemon (2)] matt-daemon (2017):
-  - A Node.js HTTP daemon for serving static files from a directory.
-  
-> With Matt Daemon, there are no surprises. He just serves.
++ [![github]][github/matt-daemon (2)] [![npm]][npm/matt-daemon (2)] matt-daemon (2017):
+  + A Node.js HTTP daemon for serving static files from a directory.
+  + > With Matt Daemon, there are no surprises. He just serves.
 
 - [![github]][github/matt-daemon (3)] [![pypi]][pypi/matt-daemon (3)] matt-daemon (2019):
   - A Python HTTP daemon for serving static files from a directory.
@@ -192,8 +196,8 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
 
 
 [Apple]: <https://en.wikipedia.org/wiki/Apple_Inc.> "Wikipedia: Apple Inc."
-[macOS]: <https://en.wikipedia.org/wiki/MacOS> "Wikipedia: MacOS"
-[Catalina]: <https://en.wikipedia.org/wiki/MacOS_Catalina> "Wikipedia: MacOS Catalina"
+[macOS]: <https://en.wikipedia.org/wiki/MacOS> "Wikipedia: macOS"
+[Catalina]: <https://en.wikipedia.org/wiki/MacOS_Catalina> "Wikipedia: macOS Catalina"
 [shell]: <https://en.wikipedia.org/wiki/Shell_(computing)> "Wikipedia: Shell (computing)"
 [switching]: <https://support.apple.com/HT208050> "Apple Support: Use zsh as the default shell on your Mac"
 [licensing]: <https://thenextweb.com/dd/2019/06/04/why-does-macos-catalina-use-zsh-instead-of-bash-licensing/> "The Next Web: Why does macOS Catalina use Zsh instead of Bash? Licensing"
@@ -221,71 +225,68 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
 
 ### What about other shells for scripting/programming languages?
 
-Perhaps similar to [`csh`]/[`tcsh`] for [C]...
+...Perhaps along the lines of [`csh`]/[`tcsh`] for [C].
+
+```Shell
+#!/usr/bin/env ____
+```
 
 - [C#]:
-  - `cssh`?
   - `csharp`: https://www.mono-project.com/docs/tools+libraries/tools/repl/
-  - `scriptcs`: https://github.com/scriptcs/scriptcs
+  - `scriptcs` (2018): https://github.com/scriptcs/scriptcs
   - `dotnet-script`: https://github.com/filipw/dotnet-script
-  - `Nake`: https://github.com/yevhen/Nake
+  - `Nake` (2017): https://github.com/yevhen/Nake
   - `csi`: https://docs.microsoft.com/en-us/archive/msdn-magazine/2016/january/essential-net-csharp-scripting
 
-- [Lua]:
-  - `luash`?
-  - `#!/usr/bin/env lua`
-  - `lua`: https://www.lua.org/manual/5.3/manual.html#7
++ [Java]:
+  + `jshell`: https://docs.oracle.com/en/java/javase/13/jshell/introduction-jshell.html
 
-- [Perl]:
-  - `plsh`?
-  - `#!/usr/bin/env perl`
-  - `perl -de1`: https://perldoc.perl.org/perl.html
+* [JavaScript]:
+  * [V8] ([Chromium]):
+    * `node`: https://nodejs.org/en/docs/guides/debugging-getting-started/#command-line-options
+  * [SpiderMonkey] ([Mozilla]):
+    * `js`: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Introduction_to_the_JavaScript_shell
+    * `jsdb` (2012): http://www.jsdb.org/
+    * `jls` (2017): http://javalikescript.free.fr/
+
+- [Lisp]:
+  - `sbcl`: http://www.sbcl.org/getting.html
+
++ [Lua]:
+  + `lua`: https://www.lua.org/manual/5.3/manual.html#7
+
+* [Perl]:
+  * `perl -de1`: https://perldoc.perl.org/perl.html
+  * `psh` (2007): https://metacpan.org/pod/distribution/psh/doc/psh.pod
 
 - [PHP]:
-  - `phpsh`?
-  - `#!/usr/bin/env php`
   - `php -a`: https://www.php.net/manual/en/features.commandline.interactive.php
 
-- [PowerShell]:
-  - `pwsh`?
-  - `#!/usr/bin/env pwsh`
-  - `pwsh`: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh
++ [PowerShell]:
+  + `pwsh`: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_pwsh
 
-- [Python]:
-  - `pysh`?
-  - `#!/usr/bin/env python3`
-  - `python3`: https://docs.python.org/3/tutorial/interpreter.html
+* [Python]:
+  * `python3`: https://docs.python.org/3/tutorial/interpreter.html
 
 - [Ruby]:
-  - `rbsh`?
-  - `#!/usr/bin/env ruby`
   - `irb`: https://docs.ruby-lang.org/en/2.7.0/IRB.html
 
-- [Scheme]:
-  - [`scsh`]?
-  - `#!/usr/bin/scsh -s`
-    - `!#`
-  - `scsh`: https://scsh.net/docu/html/man-Z-H-12.html#node_chap_11
-  - `#!/usr/bin/env mit-scheme`
-  - `mit-scheme`: https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/Basics-of-Starting-Scheme.html#Basics-of-Starting-Scheme
++ [Scheme]:
+  + [`scsh`] (2006): https://scsh.net/docu/html/man-Z-H-12.html#node_chap_11
+  + `mit-scheme`: https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/Basics-of-Starting-Scheme.html#Basics-of-Starting-Scheme
 
-- [Swift]:
-  - `swsh`?
-  - `#!/usr/bin/env swift"
-  - `swift`: https://developer.apple.com/swift/blog/?id=18
+* [Swift]:
+  * `swift`: https://developer.apple.com/swift/blog/?id=18
 
 - [Tcl]/[Tk]:
-  - `tclsh`?
-  - `#!/usr/bin/env tclsh`
   - `tclsh`: https://www.tcl.tk/man/tcl8.6/UserCmd/tclsh.htm
-  - Or [`wish`]?
-  - `#!/usr/bin/env wish`
-  - `wish`: https://www.tcl.tk/man/tcl8.6/UserCmd/wish.htm
-  - https://www.tcl.tk/man/tcl8.5/tutorial/Tcl0a.html
+  - [`wish`][`wish`]: https://www.tcl.tk/man/tcl8.6/UserCmd/wish.htm
 
 
 [C]: <https://en.wikipedia.org/wiki/C_(programming_language)> "Wikipedia: C (programming language)"
 [C#]: <https://en.wikipedia.org/wiki/C_Sharp_(programming_language)> "Wikipedia: C Sharp (programming language)"
+[Java]: <https://en.wikipedia.org/wiki/Java_(programming_language)> "Wikipedia: Java (programming language)"
+[Lisp]: <https://en.wikipedia.org/wiki/Lisp_(programming_language)> "Wikipedia: Lisp (programming language)"
 [Lua]: <https://en.wikipedia.org/wiki/Lua_(programming_language)> "Wikipedia: Lua (programming language)"
 [Perl]: <https://en.wikipedia.org/wiki/Perl> "Wikipedia: Perl"
 [PHP]: <https://en.wikipedia.org/wiki/PHP> "Wikipedia: PHP"
@@ -303,19 +304,45 @@ Perhaps similar to [`csh`]/[`tcsh`] for [C]...
 [`wish`]: <https://en.wikipedia.org/wiki/Wish_(Unix_shell)> "Wikipedia: Wish (Unix shell)"
 
 
----
-
 ## Unrelated but probably more useful things:
+
+### Node.js tools:
+
+- [![github]][github/node] [![npm]][npm/node] [![www]][www/node] **`node`** — Node.js.
+- [![github]][github/npm]  [![npm]][npm/npm]  [![www]][www/npm]  **`npm`**   — Node Package Manager.
+- [![github]][github/yarn] [![npm]][npm/yarn] [![www]][www/yarn] **`yarn`** — Node.js package manager (using npm repository) from Facebook.
+- [![github]][github/n]    [![npm]][npm/n] **`n`** — Node.js version manager.
+- [![github]][github/nvm] **`nvm`** — Node Version Manager.
+- [![github]][github/nvs] **`nvs`** — Node Version Switcher.
+
+[github/node]: <https://github.com/nodejs/node> "GitHub: nodejs/node"
+[npm/node]: <https://www.npmjs.com/package/node> "npm: node"
+[www/node]: <https://nodejs.org/> "WWW: Node.js"
+
+[github/npm]: <https://github.com/npm/cli> "GitHub: npm/cli"
+[npm/npm]: <https://www.npmjs.com/package/npm> "npm: npm"
+[www/npm]: <https://www.npmjs.com/> "WWW: NPM"
+
+[github/yarn]: <https://github.com/yarnpkg/yarn> "GitHub: yarnpkg/yarn"
+[npm/yarn]: <https://www.npmjs.com/package/yarn> "npm: yarn"
+[www/yarn]: <https://yarnpkg.com/> "WWW: Yarn"
+
+[github/n]: <https://github.com/tj/n> "GitHub: tj/n"
+[npm/n]: <https://www.npmjs.com/package/n> "npm: n"
+
+[github/nvm]: <https://github.com/nvm-sh/nvm> "GitHub: nvm-sh/nvm"
+
+[github/nvs]: <https://github.com/jasongin/nvs> "GitHub: jasongin/nvs"
+
 
 ### Using shell commands in Node.js:
 
 - [![github]][github/jBash] [![npm]][npm/jbash] [![www]][www/jbash] **jBash**: Implements some `bash`-like commands for use in JavaScript.
 
-- [![github]][github/shelljs] [![wiki]][wiki/shelljs] [![npm]][npm/shelljs] [![www]][www/shelljs] **ShellJS**: Implements some `bash` commands for use in JavaScript.
++ [![github]][github/shelljs] [![wiki]][wiki/shelljs] [![npm]][npm/shelljs] [![www]][www/shelljs] **ShellJS**: Implements some `bash` commands for use in JavaScript.
+  + [![github]][github/shx] [![npm]][npm/shx] **shx**: Run [ShellJS][github/shelljs] commands directly on the command line.
 
-  - [![github]][github/shx] [![npm]][npm/shx] **shx**: Run [ShellJS][github/shelljs] commands directly on the command line.
-
-- [![github]][github/node-powershell] [![npm]][npm/node-powershell] [![www]][www/node-powershell] **Node-PowerShell**: Implements some PowerShell commands for use in JavaScript.
+* [![github]][github/node-powershell] [![npm]][npm/node-powershell] [![www]][www/node-powershell] **Node-PowerShell**: Implements some PowerShell commands for use in JavaScript.
 
 - [![github]][github/node-cmd] [![npm]][npm/node-cmd] **node-cmd**: Execute any existing shell commands in JavaScript.
 
@@ -434,6 +461,44 @@ Perhaps similar to [`csh`]/[`tcsh`] for [C]...
 [npm]: <https://user-images.githubusercontent.com/30203863/72025145-1dbe7080-326f-11ea-90d4-a18ce8941579.png> "npm"
 [pypi]: <https://user-images.githubusercontent.com/30203863/72218522-6a39d280-3533-11ea-995f-83fe17ee30c5.png> "PyPI"
 [www]: <https://user-images.githubusercontent.com/30203863/72025848-58290d00-3271-11ea-9b61-be54729b24d4.png> "WWW"
+
+
+### Browser/JavaScript engines:
+
+- [Blink] (forked from WebCore)/[V8] ([Google]):
+  - [Chromium], [Chrome], [Edge] (soon - in beta), [Opera], [Node.js], [Android] browsers.
+
++ [EdgeHTML]/[Chakra] ([Microsoft]):
+  + [Edge] (for now).
+
+* [Gecko, Quantum]/[SpiderMonkey] ([Mozilla]):
+  * [Firefox] and derivatives.
+
+- [WebKit] — WebCore/JavaScriptCore ([Apple]):
+  - [Safari], [iOS] browsers.
+
+[Blink]: <https://en.wikipedia.org/wiki/Blink_(browser_engine)> "Wikipedia: Blink (browser engine)"
+[V8]: <https://en.wikipedia.org/wiki/V8_(JavaScript_engine)> "Wikipedia: V8 (JavaScript engine)"
+[Google]: <https://en.wikipedia.org/wiki/Google> "Wikipedia: Google"
+[Chromium]: <https://en.wikipedia.org/wiki/Chromium_(web_browser)> "Wikipedia: Chromium (web browser"
+[Chrome]: <https://en.wikipedia.org/wiki/Google_Chrome> "Wikipedia: Google Chrome"
+[Opera]: <https://en.wikipedia.org/wiki/Opera_(web_browser)> "Wikipedia: Opera (web browser)"
+[Node.js]: <https://en.wikipedia.org/wiki/Node.js> "Wikipedia: Node.js"
+[Android]: <https://en.wikipedia.org/wiki/Android_(operating_system)> "Wikipedia: Android (operating system)"
+
+[EdgeHTML]: <https://en.wikipedia.org/wiki/EdgeHTML> "Wikipedia: EdgeHTML"
+[Chakra]: <https://en.wikipedia.org/wiki/Chakra_(JavaScript_engine)> "Wikipedia: Chakra (JavaScript engine)"
+[Microsoft]: <https://en.wikipedia.org/wiki/Microsoft> "Wikipedia: Microsoft"
+[Edge]: <https://en.wikipedia.org/wiki/Microsoft_Edge> "Wikipedia: Microsoft Edge"
+
+[Gecko, Quantum]: <https://en.wikipedia.org/wiki/Gecko_(software)> "Wikipedia: Gecko (software)"
+[SpiderMonkey]: <https://en.wikipedia.org/wiki/SpiderMonkey> "Wikipedia: SpiderMonkey"
+[Mozilla]: <https://en.wikipedia.org/wiki/Mozilla_Foundation> "Wikipedia: Mozilla Foundation"
+[Firefox]: <https://en.wikipedia.org/wiki/Firefox> "Wikipedia: Firefox"
+
+[WebKit]: <https://en.wikipedia.org/wiki/WebKit> "Wikipedia: WebKit"
+[Safari]: <https://en.wikipedia.org/wiki/Safari_(web_browser)> "Wikipedia: Safari (web browser)"
+[iOS]: <https://en.wikipedia.org/wiki/IOS> "Wikipedia: iOS"
 
 
 ## Credits
