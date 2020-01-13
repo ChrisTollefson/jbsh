@@ -1,6 +1,6 @@
-# `jsonbash` — The JSON Bourne Again Shell
+# jsonbash — The JSON Bourne Again Shell
 
-[`jsonbash`] is a JavaScript shell.
+[jsonbash][`jsonbash`] is a JavaScript shell.
 
 
 ## Installation
@@ -20,7 +20,7 @@ OK, you got me, it's not JSON (at least insofar as [JSON] isn't [JavaScript]).
 
 ### Then why is it called JSON Bourne Again Shell?
 
-> I'm not sure what the [[`jsonbash`]] project does yet, but I'm pretty excited about the name<sup>[[1]][[2]][[3]]</sup>.
+> I'm not sure what the [[jsonbash][`jsonbash`]] project does yet, but I'm pretty excited about the name<sup>[[1]][[2]][[3]]</sup>.
 
 [`jsonbash`]: <https://github.com/ChrisTollefson/jsonbash> "GitHub: ChrisTollefson/jsonbash"
 [1]: <https://github.com/searls/matt-daemon/blob/master/README.md> "GitHub: searls/matt-daemon/README.md"
@@ -44,7 +44,7 @@ Yeah.
 [Yep](<https://stackoverflow.com/questions/33850903/use-node-js-as-shell> "Stack Overflow: Use Node.js as Shell").
 
 
-### So is `jsonbash` basically useless?
+### So is jsonbash basically useless?
 
 AFAICT, yes.
 
@@ -53,7 +53,7 @@ AFAICT, yes.
 
 Idunno, for fun I guess?
 
-But it was prompted by [Apple] [switching] the default [shell] from Bourne Again Shell ([`bash`]) to Z shell ([`zsh`]) as of [macOS] [Catalina (10.15)][Catalina].
+But it was prompted by [Apple] [switching] the default [shell] from [Bourne Again Shell][`bash`] to [Z shell][`zsh`] as of [macOS] [Catalina (10.15)][Catalina].
 
 #### To go off on an opinionated tangent...
 
@@ -453,9 +453,10 @@ by [Steve Parker (@unixsteve)](<https://twitter.com/unixsteve> "Twitter: Steve P
 [Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks](<https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd> "Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks")
 by [Vincent Mühler](<https://medium.com/@muehler.v> "Medium: Vincent Mühler").)
 
+
 ## License
 
-Copyright © 2020 [`jsonbash` authors and contributors](https://github.com/ChrisTollefson/jsonbash/graphs/contributors).
+Copyright © 2020 [jsonbash authors and contributors](https://github.com/ChrisTollefson/jsonbash/graphs/contributors).
 
 Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 See [LICENSE.md](https://github.com/ChrisTollefson/jsonbash/blob/master/LICENSE.md).
