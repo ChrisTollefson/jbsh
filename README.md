@@ -60,7 +60,7 @@ But it was prompted by [Apple] [switching] the default [shell] from [Bourne Agai
 
 #### To go off on an opinionated tangent...
 
-This change in macOS was perhaps due to the [licensing] of GNU Bash: version 4 (2009) and later have been licensed under [GPLv3], whereas version 3 (2004) was licensed under [GPLv2].  One motivation behind version 3 of the [GPL] was to restrict [Tivoization], whereby vendors of hardware (e.g. [TiVo]) would incorporate copyleft-licensed [open-source software] into their products, but use [hardware restriction] (such as digital signatures) to prevent modified versions of that software from running on those products — arguably defeating the [copyleft] purpose of the license.  Even though GNU Bash is already at version 5 (2019), macOS still ships with version 3.2.57 (2007), which was the last version of GNU Bash licensed under GPLv2.  So maybe Apple is gearing up to implement some kind of Tivoization for their own hardware products?  To do so, they couldn't include any GPLv3 code in macOS, which might explain why GNU Bash is stuck at 3.2.57.
+This change in macOS was perhaps due to the [licensing] of GNU Bash: version 4 (2009) and later have been licensed under [GPLv3], whereas version 3 (2004) was licensed under [GPLv2].  One motivation behind version 3 of the [GPL] was to restrict [Tivoization], whereby vendors of hardware (e.g. [TiVo]) would incorporate copyleft-licensed [open-source software] into their products, but use [hardware restriction] (such as digital signatures) to prevent modified versions of that software from running on those products — arguably defeating the [copyleft] purpose of the license as far as that hardware is concerned.  Even though GNU Bash is already at version 5 (2019), macOS still ships with version 3.2.57 (2007), which was the last version of GNU Bash licensed under GPLv2.  So maybe Apple is gearing up to implement some kind of Tivoization for their own hardware products?  To do so, they couldn't include any GPLv3 code in macOS, which might explain why GNU Bash is stuck at 3.2.57.
 
 But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple has been removing specifically GPL-licensed software packages as of [Mac OS X Leopard (10.5)][Leopard] (or earlier?):
 
@@ -196,7 +196,7 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
 [Catalina]: <https://en.wikipedia.org/wiki/MacOS_Catalina> "Wikipedia: MacOS Catalina"
 [shell]: <https://en.wikipedia.org/wiki/Shell_(computing)> "Wikipedia: Shell (computing)"
 [switching]: <https://support.apple.com/HT208050> "Apple Support: Use zsh as the default shell on your Mac"
-[licensing]: <https://thenextweb.com/dd/2019/06/04/why-does-macos-catalina-use-zsh-instead-of-bash-licensing/> "Why does macOS Catalina use Zsh instead of Bash? Licensing"
+[licensing]: <https://thenextweb.com/dd/2019/06/04/why-does-macos-catalina-use-zsh-instead-of-bash-licensing/> "The Next Web: Why does macOS Catalina use Zsh instead of Bash? Licensing"
 [GPL]: <https://en.wikipedia.org/wiki/GNU_General_Public_License> "Wikipedia: GNU General Public License"
 [GPLv2]: <https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_2> "Wikipedia: GNU General Public License#Version 2"
 [GPLv3]: <https://en.wikipedia.org/wiki/GNU_General_Public_License#Version_3> "Wikipedia: GNU General Public License#Version 3"
