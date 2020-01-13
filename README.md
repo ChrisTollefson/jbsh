@@ -159,12 +159,12 @@ Fortunately, [Matt Daemon][github/matt-daemon] (April 2012) has already been dev
 > <sample>You can't stop Matt Daemon. Permission denied. [FAILED]</sample>
 
 - [![github]][github/matt-daemon (2)] [![npm]][npm/matt-daemon (2)] matt-daemon (2017):
-  - An (apperently-actually-functional) Node.js HTTP daemon for serving static pages.
+  - A Node.js HTTP daemon for serving static files from a directory.
   
 > With Matt Daemon, there are no surprises. He just serves.
 
 - [![github]][github/matt-daemon (3)] [![pypi]][pypi/matt-daemon (3)] matt-daemon (2019):
-  - A Python implementation of the Node.js matt-daemon HTTP daemon.
+  - A Python HTTP daemon for serving static files from a directory.
 
 The original Matt Daemon was forked and developed into the [Jason Bourne shell][github/jason-bourne-shell], which was itself forked and developed into the [JSON Bourne shell][github/json-bourne-shell].  Unfortunately, the source code for these projects is currently published without a license, and therefore may not be used by anyone other than their respective copyright holders, as mentioned in [GitHub Help](<https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository#choosing-the-right-license> "GitHub Help: Licensing a repository#Choosing the right license"):
 
