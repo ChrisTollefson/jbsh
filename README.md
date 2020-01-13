@@ -44,7 +44,7 @@ Yeah.
 [Yep](<https://stackoverflow.com/questions/33850903/use-node-js-as-shell> "Stack Overflow: Use Node.js as Shell").
 
 
-### So is jsonbash basically useless?
+### So is JSON Bourne Again Shell basically useless?
 
 AFAICT, yes.
 
@@ -53,7 +53,7 @@ AFAICT, yes.
 
 Idunno, for fun I guess?
 
-But it was prompted by [Apple] [switching] the default [shell] from [Bourne Again Shell][`bash`] to [Z shell][`zsh`] as of [macOS] [Catalina (10.15)][Catalina].
+But it was prompted by [Apple] [switching] the default [shell] from [Bourne Again Shell][`bash`](GNU Bash) to [Z shell][`zsh`] as of [macOS] [Catalina (10.15)][Catalina].
 
 #### To go off on an opinionated tangent...
 
@@ -82,7 +82,7 @@ But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple 
 [Sierra]: <https://en.wikipedia.org/wiki/MacOS_Sierra> "Wikipedia: MacOS Sierra"
 
 
-Maybe that's a coincidence, but the switch to `zsh` as the default could foreshadow `bash`'s eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of `bash` would be unfortunate for developers on macOS and for interoperability between operating systems generally.
+Maybe that's a coincidence, but the switch to Z shell as the default could foreshadow GNU Bash's eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of `bash` would be unfortunate for developers on macOS and for interoperability between operating systems generally.
 
 ---
 
@@ -90,7 +90,7 @@ To be fair, Apple doesn't seem to be backing away from open-source; on the contr
 
 > Open source software is at the heart of Apple platforms and developer tools, and Apple continues to contribute and release significant quantities of open source code.
 
-And I would concur, based on some of the open-source projects listed there, or previously hosted at [macOS forge]:
+And I concur, based on some of the open-source projects listed there, or previously hosted at [macOS forge]:
 
 | Project | License |
 |---------|---------|
