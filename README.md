@@ -85,7 +85,7 @@ But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple 
 [Sierra]: <https://en.wikipedia.org/wiki/MacOS_Sierra> "Wikipedia: MacOS Sierra"
 
 
-Maybe that's a coincidence, but the switch to Z shell as the default could foreshadow GNU Bash's eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of `bash` would be unfortunate for developers on macOS and for interoperability between operating systems generally.
+Maybe that's a coincidence and this is speculation, but the switch to Z shell as the default could foreshadow GNU Bash's eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of `bash` would be unfortunate for developers on macOS and for interoperability between operating systems generally.
 
 ---
 
@@ -135,7 +135,7 @@ And I concur, based on some of the open-source projects listed there, or previou
 [github/quartz-wm]: <https://github.com/XQuartz/quartz-wm> "GitHub: XQuartz/quartz-wm"
 [www/xquartz]: <https://www.xquartz.org/> "WWW:XQuartz"
 
-Most of those licenses are [permissive] (which I favor), and I don't even have a problem with Tivoization *per se* — in other words, if I don't like that a particular hardware is restricted to a particular software, then I simply won't buy that hardware.  But when it comes to *personal computers* (and maybe even *smartphones*), one of my expectations is the freedom to choose what software I use on that computer.  In other words, for a general purpose computer with a given CPU architecture, I should be free to run any operating system I choose (for which I have obtained a valid license) that can be built for that architecture.  (Assuming, of course, availability of device drivers for that operating system.)  So if Tivoization is in the future for Macs, it would be a real disappointment, and I predict that Apple's sales would begin to drop as developers abandon macOS and switch to Linux (or even Windows) — and if developers aren't writing apps for macOS, it could even mean a drop in market-share overall as end-users abandon it too.
+But most of those licenses are [permissive], which would permit Tivoization.  I generally favour permissive licenses, and I don't have a problem with Tivoization *per se* — in other words, if I don't like that a particular hardware is restricted to a particular software, then I simply won't buy that hardware.  But when it comes to *personal computers* (and maybe even *smartphones*), one of my expectations is the freedom to choose what software I use on that computer.  In other words, for a general purpose computer with a given CPU architecture, I should be free to run any operating system I choose (for which I have obtained a valid license) that can be built for that architecture.  (Assuming, of course, availability of device drivers for that operating system.)  So if Tivoization is in the future for Macs, it would be a real disappointment to me.
 
 
 #### ...But I digress.
