@@ -1,6 +1,6 @@
 # `jsonbash` — The JSON Bourne Again Shell
 
-`jsonbash` is a JavaScript shell.
+[`jsonbash`] is a JavaScript shell.
 
 
 ## Installation
@@ -18,11 +18,11 @@ OK, you got me, it's not JSON (at least insofar as [JSON] isn't [JavaScript]).
 [JavaScript]: <https://en.wikipedia.org/wiki/JavaScript> "Wikipedia: JavaScript"
 
 
-### Then why is it *called JSON* Bourne Again Shell?
+### Then why is it called JSON Bourne Again Shell?
 
-I'm not sure what the [`jsonbash`][jsonbash] project does yet, but I'm pretty excited about the name<sup>[[1]][[2]][[3]]</sup>.
+> I'm not sure what the [[`jsonbash`]] project does yet, but I'm pretty excited about the name<sup>[[1]][[2]][[3]]</sup>.
 
-[jsonbash]: <https://github.com/ChrisTollefson/jsonbash> "GitHub: ChrisTollefson/jsonbash"
+[`jsonbash`]: <https://github.com/ChrisTollefson/jsonbash> "GitHub: ChrisTollefson/jsonbash"
 [1]: <https://github.com/searls/matt-daemon/blob/master/README.md> "GitHub: searls/matt-daemon/README.md"
 [2]: <https://github.com/bostonaholic/jason-bourne-shell/blob/master/README.md> "GitHub: bostonaholic/jason-bourne-shell/README.md"
 [3]: <https://github.com/Breton/json-bourne-shell/blob/master/README.md> "GitHub: Breton/json-bourne-shell/README.md"
@@ -41,7 +41,7 @@ Yeah.
 
 ### Hasn't that been done before?
 
-[Yes](<https://stackoverflow.com/questions/33850903/use-node-js-as-shell> "Stack Overflow: Use Node.js as Shell").
+[Yep](<https://stackoverflow.com/questions/33850903/use-node-js-as-shell> "Stack Overflow: Use Node.js as Shell").
 
 
 ### So is `jsonbash` basically useless?
@@ -51,15 +51,15 @@ AFAICT, yes.
 
 ### Then why do this?
 
-For fun, I guess?
+Idunno, for fun I guess?
 
-But it was prompted by [Apple] [switching] the default [shell] from Bourne Again Shell ([bash]) to Z Shell ([zsh]) as of [macOS] [Catalina (10.15)][Catalina].
+But it was prompted by [Apple] [switching] the default [shell] from Bourne Again Shell ([`bash`]) to Z shell ([`zsh`]) as of [macOS] [Catalina (10.15)][Catalina].
 
 #### To go off on an opinionated tangent...
 
 This change in macOS was perhaps due to the [licensing] of GNU Bash: version 4 (2009) and later have been licensed under [GPLv3], whereas version 3 (2004) was licensed under [GPLv2].  One motivation behind version 3 of the [GPL] was to restrict [Tivoization], whereby vendors of hardware (e.g. [TiVo]) would incorporate copyleft-licensed [open-source software] into their products, but use [hardware restriction] (such as digital signatures) to prevent modified versions of that software from running on those products — arguably defeating the [copyleft] purpose of the license.  Even though GNU Bash is already at version 5 (2019), macOS still ships with version 3.2.57 (2007), which was the last version of GNU Bash licensed under GPLv2.  So maybe Apple is gearing up to implement some kind of Tivoization for their own hardware products?  To do so, they couldn't include any GPLv3 code in macOS, which might explain why GNU Bash is stuck at 3.2.57.
 
-But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple has been removing specifically GPL-licensed software packages from macOS as of [Mac OS X Leopard (10.5)][Leopard] (or earlier?):
+But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple has been removing specifically GPL-licensed software packages as of [Mac OS X Leopard (10.5)][Leopard] (or earlier?):
 
 | macOS version           | Number of GPL-licensed packages |
 |-------------------------|---------------------------------|
@@ -82,7 +82,7 @@ But according to http://meta.ath0.com/2012/02/05/apples-great-gpl-purge/, Apple 
 [Sierra]: <https://en.wikipedia.org/wiki/MacOS_Sierra> "Wikipedia: MacOS Sierra"
 
 
-Maybe that's a coincidence, but the switch to zsh as the default could foreshadow bash's eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of bash would be unfortunate for developers on macOS and for interoperability between operating systems generally.
+Maybe that's a coincidence, but the switch to `zsh` as the default could foreshadow `bash`'s eventual removal from macOS entirely.  It's bad enough that it's already a decade out-of-date, but IMHO, the complete loss of `bash` would be unfortunate for developers on macOS and for interoperability between operating systems generally.
 
 ---
 
@@ -97,12 +97,12 @@ And I would concur, based on some of the open-source projects listed there, or p
 [![github]][github/alac]     [ALAC][www/alac] — Apple Lossless Audio Codec                        | [Apache] (2.0)
 [![www]][source/bonjour]     [Bonjour][www/bonjour] mDNSResponder — Zero-configuration networking | [Apache] (2.0)
 [![github]][github/cups]     [CUPS][www/cups] — Common UNIX Printing System                       | [Apache] (2.0)
-[![www]][source/darwin]      [Darwin][www/darwin] — macOS/iOS core operating system               | partial [APSL]
+[![www]][source/darwin]      [Darwin][www/darwin] — macOS/iOS core operating system               | [APSL] and others
 [![github]][github/macports] [MacPorts][www/macports] — Package manager                           | [BSD] (3-clause)
 [![github]][github/swift]    [Swift][www/swift] — Programming language                            | [Apache] (2.0)
 [![trac]][trac/webkit]       [WebKit][www/webkit] — Browser engine | [LGPL] (2.1)<br>[BSD] (2-clause)
 [![github]][github/xnu]      [XNU][www/xnu] — Darwin kernel                                       | [APSL] (2.0)
-[![github]][github/xorg-server] [XQuartz][www/xquartz] — Display server<br>[![github]][github/quartz-wm] Window manager | [BSD], [MIT], [variants]<br>[APSL] (2.0)
+[XQuartz][www/xquartz] — [![github]][github/xorg-server] Display server and<br>[![github]][github/quartz-wm] Window manager | [BSD], [MIT], [variants]<br>[APSL] (2.0)
 
 [github/alac]: <https://github.com/macosforge/alac> "GitHub: macosforge/alac"
 [www/alac]: <https://macosforge.github.io/alac/> "WWW: Apple Lossless Audio Codec"
@@ -142,25 +142,30 @@ So if we have to switch to a different shell anyway, then why not try one in Jav
 Fortunately, [Matt Daemon][github/matt-daemon] (April 2012) has already been developed.  This is not to be confused with later Matt Daemons, such as:
 
 - [![github]][github/mattd.core] [![pypi]][pypi/mattd.core] mattd.core — Matt Daemon (August 2012):
-  - A Python voice-to-text driven plugin system.
+  - A voice-to-text driven plugin system in Python.
 
 - [![github]][github/mattd] mattd — Matt Daemon (2013):
   - Forked from mattd.core.
-  - `$ service mattd status`
-    - Matt Daemon is running.
-  - `$ service mattd stop`
-    - You can't stop Matt Daemon. Permission denied. [FAILED]
+
+> `$ service mattd status`
+>
+>  <sample>Matt Daemon is running.</sample>
+>
+> `$ service mattd stop`
+>
+> <sample>You can't stop Matt Daemon. Permission denied. [FAILED]</sample>
 
 - [![github]][github/matt-daemon (2)] [![npm]][npm/matt-daemon (2)] matt-daemon (2017):
   - An (apperently-actually-functional) Node.js HTTP daemon for serving static pages.
-  - "With Matt Daemon, there are no surprises. He just serves."
+  
+> With Matt Daemon, there are no surprises. He just serves.
 
 - [![github]][github/matt-daemon (3)] [![pypi]][pypi/matt-daemon (3)] matt-daemon (2019):
   - A Python implementation of the Node.js matt-daemon HTTP daemon.
 
 The original Matt Daemon was forked and developed into the [Jason Bourne shell][github/jason-bourne-shell], which was itself forked and developed into the [JSON Bourne shell][github/json-bourne-shell].  Unfortunately, the source code for these shells is currently published without a license, and therefore may not be used by anyone other than their respective copyright holders.
 
-This situation might be similar to that of the original [Bourne shell][sh], whose copyright may be [disputed] as part of [Unix].  This perhaps contributed to the development of the [Bourne Again shell][bash] as an open-source replacement under [GNU].  Similarly, we have developed the [JSON Bourne Again shell][jsonbash] to provide a licensed alternative to the earlier Jason Bourne shell and JSON Bourne shell.
+This situation might be similar to that of the original [Bourne shell][`sh`], whose copyright may be [disputed] as part of [Unix].  This perhaps contributed to the development of the [Bourne Again shell][`bash`] as an open-source replacement under [GNU].  Similarly, we have developed the [JSON Bourne Again shell][`jsonbash`] to provide a licensed alternative to the earlier Jason Bourne shell and JSON Bourne shell.
 
 
 [github/matt-daemon]: <https://github.com/searls/matt-daemon> "GitHub: searls/matt-daemon"
@@ -211,7 +216,7 @@ This situation might be similar to that of the original [Bourne shell][sh], whos
 
 ### What about other shells for scripting/programming languages?
 
-Perhaps similar to [csh]/[tcsh] for [C]...
+Perhaps similar to [`csh`]/[`tcsh`] for [C]...
 
 - [C#]:
   - `cssh`?
@@ -252,13 +257,12 @@ Perhaps similar to [csh]/[tcsh] for [C]...
   - `irb`: https://docs.ruby-lang.org/en/2.7.0/IRB.html
 
 - [Scheme]:
-  - `scsh`?
+  - [`scsh`]?
+  - `#!/usr/bin/scsh -s`
+    - `!#`
+  - `scsh`: https://scsh.net/docu/html/man-Z-H-12.html#node_chap_11
   - `#!/usr/bin/env mit-scheme`
   - `mit-scheme`: https://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/Basics-of-Starting-Scheme.html#Basics-of-Starting-Scheme
-  - Or [`scsh`][scsh]?
-  - `#!/usr/bin/scsh -s`
-  - `!#`
-  - `scsh`: https://scsh.net/docu/html/man-Z-H-12.html#node_chap_11
 
 - [Swift]:
   - `swsh`?
@@ -269,7 +273,7 @@ Perhaps similar to [csh]/[tcsh] for [C]...
   - `tclsh`?
   - `#!/usr/bin/env tclsh`
   - `tclsh`: https://www.tcl.tk/man/tcl8.6/UserCmd/tclsh.htm
-  - Or [`wish`][wish]?
+  - Or [`wish`]?
   - `#!/usr/bin/env wish`
   - `wish`: https://www.tcl.tk/man/tcl8.6/UserCmd/wish.htm
   - https://www.tcl.tk/man/tcl8.5/tutorial/Tcl0a.html
@@ -288,10 +292,10 @@ Perhaps similar to [csh]/[tcsh] for [C]...
 [Tcl]: <https://en.wikipedia.org/wiki/Tcl> "Wikipedia: Tcl"
 [Tk]: <https://en.wikipedia.org/wiki/Tk_(software)> "Wikipedia: Tk (software)"
 
-[csh]: <https://en.wikipedia.org/wiki/C_shell> "Wikipedia: C shell"
-[scsh]: <https://en.wikipedia.org/wiki/Scsh> "Wikipedia: Scsh"
-[tcsh]: <https://en.wikipedia.org/wiki/Tcsh> "Wikipedia: Tcsh"
-[wish]: <https://en.wikipedia.org/wiki/Wish_(Unix_shell)> "Wikipedia: Wish (Unix shell)"
+[`csh`]: <https://en.wikipedia.org/wiki/C_shell> "Wikipedia: C shell"
+[`scsh`]: <https://en.wikipedia.org/wiki/Scsh> "Wikipedia: Scsh"
+[`tcsh`]: <https://en.wikipedia.org/wiki/Tcsh> "Wikipedia: Tcsh"
+[`wish`]: <https://en.wikipedia.org/wiki/Wish_(Unix_shell)> "Wikipedia: Wish (Unix shell)"
 
 
 ---
@@ -300,9 +304,9 @@ Perhaps similar to [csh]/[tcsh] for [C]...
 
 ### Using shell commands in Node.js:
 
-- [![github]][github/jBash] [![npm]][npm/jbash] [![www]][www/jbash] **jBash**: Implements some bash-like commands for use in JavaScript.
+- [![github]][github/jBash] [![npm]][npm/jbash] [![www]][www/jbash] **jBash**: Implements some `bash`-like commands for use in JavaScript.
 
-- [![github]][github/shelljs] [![wiki]][wiki/shelljs] [![npm]][npm/shelljs] [![www]][www/shelljs] **ShellJS**: Implements some bash commands for use in JavaScript.
+- [![github]][github/shelljs] [![wiki]][wiki/shelljs] [![npm]][npm/shelljs] [![www]][www/shelljs] **ShellJS**: Implements some `bash` commands for use in JavaScript.
 
   - [![github]][github/shx] [![npm]][npm/shx] **shx**: Run [ShellJS][github/shelljs] commands directly on the command line.
 
@@ -332,11 +336,11 @@ Perhaps similar to [csh]/[tcsh] for [C]...
 
 ### Interactive shells:
 
-- [![github]][github/cash] [![wiki]][wiki/cash] [![npm]][npm/cash] **Cash**: Implements some bash commands in an interactive shell running on Node.js.  The commands can also be used in JavaScript scripts.  (Implemented using [Vorpal][github/vorpal].)
+- [![github]][github/cash] [![wiki]][wiki/cash] [![npm]][npm/cash] **Cash**: Implements some `bash` commands in an interactive shell running on Node.js.  The commands can also be used in JavaScript scripts.  (Implemented using [Vorpal][github/vorpal].)
 
-- [![github]][github/jssh] [![npm]][npm/jssh] **jssh — JavaScript Shell**: An interactive JavaScript shell that runs on Node.js.  Also supports bash commands via [ShellJS][github/shelljs].
+- [![github]][github/jssh] [![npm]][npm/jssh] **jssh — JavaScript Shell**: An interactive JavaScript shell that runs on Node.js.  Also supports `bash` commands via [ShellJS][github/shelljs].
 
-- [![github]][github/jsbash] [![www]][www/jsbash] **jsbash**: A bash interpreter, implemented in JavaScript.
+- [![github]][github/jsbash] [![www]][www/jsbash] **jsbash**: A `bash` interpreter, implemented in JavaScript.
 
 [github/cash]: <https://github.com/dthree/cash> "GitHub: dthree/cash"
 [wiki/cash]: <https://github.com/dthree/cash/wiki> "GitHub Wiki: dthree/cash"
@@ -392,9 +396,9 @@ Perhaps similar to [csh]/[tcsh] for [C]...
 
 - [![github]][github/json.sh (1)] **JSON.sh**: Parses JSON in [POSIX] shells.
 
-- [![github]][github/json-bash] **json-bash — JSON for Bash**: Processes JSON data in [bash].
+- [![github]][github/json-bash] **json-bash — JSON for Bash**: Processes JSON data in [`bash`].
 
-- [![github]][github/json.sh (2)] [![npm]][npm/json.sh (2)] **JSON.sh**: Parses JSON in various [Unix shells][Unix shell] based on the [Bourne shell][sh] ([ash], [bash], [dash] and [zsh]).
+- [![github]][github/json.sh (2)] [![npm]][npm/json.sh (2)] **JSON.sh**: Parses JSON in various [Unix shells][Unix shell] based on the [Bourne shell][`sh`] ([`ash`], [`bash`], [`dash`] and [`zsh`]).
 
 - [![github]][github/jsonsh] [![www]][www/jsonsh] **JSON Syntax Highlight & Format**: Online formatting and syntax-highlighting of JSON data (copied-and-pasted, or directly from a web-service URL).
 
@@ -412,11 +416,11 @@ Perhaps similar to [csh]/[tcsh] for [C]...
 
 [POSIX]: <https://en.wikipedia.org/wiki/POSIX> "Wikipedia: POSIX"
 [Unix shell]: <https://en.wikipedia.org/wiki/Unix_shell> "Wikipedia: Unix shell"
-[sh]: <https://en.wikipedia.org/wiki/Bourne_shell> "Wikipedia: Bourne shell"
-[ash]: <https://en.wikipedia.org/wiki/Almquist_shell> "Wikipedia: Almquist shell"
-[bash]: <https://en.wikipedia.org/wiki/Bash_(Unix_shell)> "Wikipedia: Bash (Unix shell)"
-[dash]: <https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions> "Wikipedia: Almquist shell#dash: Ubuntu, Debian and POSIX compliance of Linux distributions"
-[zsh]: <https://en.wikipedia.org/wiki/Z_shell> "Wikipedia: Z shell"
+[`sh`]: <https://en.wikipedia.org/wiki/Bourne_shell> "Wikipedia: Bourne shell"
+[`ash`]: <https://en.wikipedia.org/wiki/Almquist_shell> "Wikipedia: Almquist shell"
+[`bash`]: <https://en.wikipedia.org/wiki/Bash_(Unix_shell)> "Wikipedia: Bash (Unix shell)"
+[`dash`]: <https://en.wikipedia.org/wiki/Almquist_shell#dash:_Ubuntu,_Debian_and_POSIX_compliance_of_Linux_distributions> "Wikipedia: Almquist shell#dash: Ubuntu, Debian and POSIX compliance of Linux distributions"
+[`zsh`]: <https://en.wikipedia.org/wiki/Z_shell> "Wikipedia: Z shell"
 
 
 [github]: <https://user-images.githubusercontent.com/30203863/72025642-ae498080-3270-11ea-92e4-ab87507862d6.png> "GitHub Repository"
