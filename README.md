@@ -2,6 +2,8 @@
 
 [jsonbash][`jsonbash`] is a JavaScript shell.
 
+[`jsonbash`]: <https://github.com/ChrisTollefson/jsonbash> "GitHub: ChrisTollefson/jsonbash"
+
 
 ## Installation
 
@@ -20,9 +22,10 @@ OK, you got me, it's not JSON (at least insofar as [JSON] isn't [JavaScript]).
 
 ### Then why is it called JSON Bourne Again Shell?
 
-> I'm not sure what the [[jsonbash][`jsonbash`]] project does yet, but I'm pretty excited about the name<sup>[[1]][[2]][[3]]</sup>.
+To quote from the original projects<sup>[[1]][[2]][[3]]</sup>:
 
-[`jsonbash`]: <https://github.com/ChrisTollefson/jsonbash> "GitHub: ChrisTollefson/jsonbash"
+> I'm not sure what the [jsonbash] project does yet, but I'm pretty excited about the name.
+
 [1]: <https://github.com/searls/matt-daemon/blob/master/README.md> "GitHub: searls/matt-daemon/README.md"
 [2]: <https://github.com/bostonaholic/jason-bourne-shell/blob/master/README.md> "GitHub: bostonaholic/jason-bourne-shell/README.md"
 [3]: <https://github.com/Breton/json-bourne-shell/blob/master/README.md> "GitHub: Breton/json-bourne-shell/README.md"
@@ -163,9 +166,11 @@ Fortunately, [Matt Daemon][github/matt-daemon] (April 2012) has already been dev
 - [![github]][github/matt-daemon (3)] [![pypi]][pypi/matt-daemon (3)] matt-daemon (2019):
   - A Python implementation of the Node.js matt-daemon HTTP daemon.
 
-The original Matt Daemon was forked and developed into the [Jason Bourne shell][github/jason-bourne-shell], which was itself forked and developed into the [JSON Bourne shell][github/json-bourne-shell].  Unfortunately, the source code for these shells is currently published without a license, and therefore may not be used by anyone other than their respective copyright holders.
+The original Matt Daemon was forked and developed into the [Jason Bourne shell][github/jason-bourne-shell], which was itself forked and developed into the [JSON Bourne shell][github/json-bourne-shell].  Unfortunately, the source code for these projects is currently published without a license, and therefore may not be used by anyone other than their respective copyright holders, as mentioned in [GitHub Help](<https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository#choosing-the-right-license> "GitHub Help: Licensing a repository#Choosing the right license"):
 
-This situation might be similar to that of the original [Bourne shell][`sh`], whose copyright may be [disputed] as part of [Unix].  This perhaps contributed to the development of the [Bourne Again shell][`bash`] as an open-source replacement under [GNU].  Similarly, we have developed the [JSON Bourne Again shell][`jsonbash`] to provide a licensed alternative to the earlier Jason Bourne shell and JSON Bourne shell.
+> ...without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work.
+
+This situation might be similar to that of the original [Bourne shell][`sh`], whose copyright may be [disputed] as part of [Unix].  This perhaps contributed to the development of the [Bourne Again shell][`bash`] as an open-source replacement under [GNU].  Similarly, we have developed the [JSON Bourne Again shell][`jsonbash`] to provide a licensed alternative to the Jason Bourne shell and JSON Bourne shell (and Matt Daemon) via a complete re-write, so that none of the unlicensed code remains.
 
 
 [github/matt-daemon]: <https://github.com/searls/matt-daemon> "GitHub: searls/matt-daemon"
