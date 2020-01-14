@@ -253,7 +253,7 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
   - [`wish`][`wish`]: https://www.tcl.tk/man/tcl8.6/UserCmd/wish.htm
 
 
-## Other things with similar names (and related items):
+## Other things with similar names — and things related to those things — none of which are related to jsonbash:
 
 ### Using shell commands in Node.js:
 
