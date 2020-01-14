@@ -8,7 +8,7 @@
 
 # jsonbash — The JSON Bourne Again Shell
 
-[jsonbash][`jsonbash`] is a JavaScript shell.
+**[`matt-daemon`][github/matt-daemon]** stars in **[`jsonbash`] — the JSON Bourne Again shell**.
 
 <img src="https://user-images.githubusercontent.com/30203863/72018999-b00b4800-3260-11ea-810b-5093f745e7ad.png"
      alt="Matt Daemon in JSON Bourne Again Shell"
