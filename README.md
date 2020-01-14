@@ -10,15 +10,13 @@
 
 **[`matt-daemon`][github/matt-daemon]** stars in **[`jsonbash`] — the JSON Bourne Again shell**.
 
-<a href="https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd"
-   title="Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks">
-  <img src="https://user-images.githubusercontent.com/30203863/72018999-b00b4800-3260-11ea-810b-5093f745e7ad.png"
-       alt="Matt Daemon in JSON Bourne Again Shell"
-       title="Matt Daemon in JSON Bourne Again Shell"
-       width="50%"
-  />
-</a>
+<img src="https://user-images.githubusercontent.com/30203863/72018999-b00b4800-3260-11ea-810b-5093f745e7ad.png"
+     alt="Matt Daemon in JSON Bourne Again Shell"
+     title="Matt Daemon in JSON Bourne Again Shell"
+     width="50%"
+/>
 
+(Image based on [this](<https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd> "Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks").)
 
 ## TOC
 
