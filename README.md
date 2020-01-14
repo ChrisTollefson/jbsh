@@ -10,15 +10,14 @@
 
 **[`matt-daemon`][github/matt-daemon]** stars in **[`jsonbash`] — the JSON Bourne Again shell**.
 
-<img src="https://user-images.githubusercontent.com/30203863/72018999-b00b4800-3260-11ea-810b-5093f745e7ad.png"
-     alt="Matt Daemon in JSON Bourne Again Shell"
-     title="Matt Daemon in JSON Bourne Again Shell"
-     width="50%"
-/>
-
-(Image based on
-[Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks](<https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd> "Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks")
-by [Vincent Mühler](<https://medium.com/@muehler.v> "Medium: Vincent Mühler").)
+<a href="https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd"
+   title="Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks">
+  <img src="https://user-images.githubusercontent.com/30203863/72018999-b00b4800-3260-11ea-810b-5093f745e7ad.png"
+       alt="Matt Daemon in JSON Bourne Again Shell"
+       title="Matt Daemon in JSON Bourne Again Shell"
+       width="50%"
+  />
+</a>
 
 
 ## TOC
@@ -337,6 +336,7 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
 - [![github]][github/jason-bourne-shell] **jason-bourne-shell** — Jason Bourne shell (2016)
 - [![github]][github/json-bourne-shell] **json-bourne-shell** — JSON Bourne shell (2017)
 - [Reddit/ProgrammerHumor](<https://www.reddit.com/r/ProgrammerHumor/comments/6yf7bx/json_bourne/> "Reddit: JSON Bourne") post by [u/lmalmen](<https://www.reddit.com/user/lmalmen/> "Reddit: u/lmalmen") (2017).
+- [Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks](<https://medium.com/@muehler.v/tutorial-to-node-js-native-c-modules-part-2-arrays-json-and-callbacks-9b81f09874cd> "Medium: Tutorial to Native Node.js Modules with C++. Part 2 — Arrays, JSON and Callbacks") by [Vincent Mühler](<https://medium.com/@muehler.v> "Medium: Vincent Mühler") (2017).
 - [Twitter comment](<https://twitter.com/scherzmut/status/1033640084426432512?s=20> "Twitter: @schersmut: JSON Bourne Again Shell ... just to give some very wrong ideas here.") by [Hersmut (@scherzmut)](<https://twitter.com/scherzmut> "Twitter: Herzmut (@scherzmut)") (2018).
   - [Tweet](<https://twitter.com/unixsteve/status/1033491395607187457?s=20> "Twitter: @unixsteve: Thought this might amuse  @nixcraft") by [Steve Parker (@unixsteve)](<https://twitter.com/unixsteve> "Twitter: Steve Parker (@unixsteve)") (2018).
 
