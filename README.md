@@ -21,6 +21,11 @@
 by [Vincent Mühler](<https://medium.com/@muehler.v> "Medium: Vincent Mühler").)
 
 
+## TOC
+
+TODO
+
+
 ## Installation
 
 TODO
@@ -248,17 +253,7 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
   - [`wish`][`wish`]: https://www.tcl.tk/man/tcl8.6/UserCmd/wish.htm
 
 
-## Unrelated but probably more useful things:
-
-### Node.js tools:
-
-- [![github]][github/node] [![npm]][npm/node] [![www]][www/node] **`node`** — Node.js.
-- [![github]][github/npm] [![wiki]][wiki/npm] [![npm]][npm/npm] [![www]][www/npm]  **`npm`**   — Node Package Manager.
-- [![github]][github/yarn] [![npm]][npm/yarn] [![www]][www/yarn] **`yarn`** — Node.js package manager (using npm repository) from Facebook.
-- [![github]][github/n] [![wiki]][wiki/n] [![npm]][npm/n] **`n`** — Node.js version manager.
-- [![github]][github/nvm] **`nvm`** — Node Version Manager.
-- [![github]][github/nvs] **`nvs`** — Node Version Switcher.
-
+## Other things with similar names (and related items):
 
 ### Using shell commands in Node.js:
 
@@ -293,7 +288,7 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
 
 - [![github]][github/inquirer.js] [![wiki]][wiki/inquirer.js] [![npm]][npm/inquirer.js] **Inquirer.js**: Provides an interactive CLI by enabling you to implement prompts to the user.
 
-- [![github]][github/vorpal] [![wiki]][wiki/vorpal] [![npm]][npm/vorpal] [![www]][www/vorpal] **Vorpal**: Based on [commander.js][github/commander.js], it uses [chalk][github/chalk] for styling, [minimist][github/minimist] for argument parsing, [Inquirer.js][github/inquirer.js] for interactive prompts, and implements its own help system and command completion to provide a complete interactive CLI app package.  [🗡️](<https://en.wikipedia.org/wiki/Jabberwocky>)
+- [![github]][github/vorpal] [![wiki]][wiki/vorpal] [![npm]][npm/vorpal] [![www]][www/vorpal] **Vorpal**: Based on [commander.js][github/commander.js], it uses [chalk][github/chalk] for styling, [minimist][github/minimist] for argument parsing, [Inquirer.js][github/inquirer.js] for interactive prompts, and implements its own help system and command completion to provide a complete interactive CLI app package (e.g. [Cash][github/cash]).  [🗡️](<https://en.wikipedia.org/wiki/Jabberwocky>)
 
 
 ### JSON tools:
@@ -304,8 +299,18 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
 
 - [![github]][github/json.sh (2)] [![npm]][npm/json.sh (2)] **JSON.sh**: Parses JSON in various [Unix shells][Unix shell] based on the [Bourne shell][`sh`] ([`ash`], [`bash`], [`dash`] and [`zsh`]).
 
-- [![github]][github/jsonsh] [![www]][www/jsonsh] **JSON Syntax Highlight & Format**: Online formatting and syntax-highlighting of JSON data (copied-and-pasted, or directly from a web-service URL).
+- [![github]][github/jsonsh] [![www]][www/jsonsh] **[jsonsh.com][www/jsonsh] — JSON Syntax Highlight & Format**: Online formatting and syntax-highlighting of JSON data (copied-and-pasted, or directly from a web-service URL).
 
+## Other tools/info:
+
+### Node.js:
+
+- [![github]][github/node] [![npm]][npm/node] [![www]][www/node] **`node`** — Node.js.
+- [![github]][github/npm] [![wiki]][wiki/npm] [![npm]][npm/npm] [![www]][www/npm]  **`npm`**   — Node Package Manager.
+- [![github]][github/yarn] [![npm]][npm/yarn] [![www]][www/yarn] **`yarn`** — Node.js package manager (using npm repository) from Facebook.
+- [![github]][github/n] [![wiki]][wiki/n] [![npm]][npm/n] **`n`** — Node.js version manager.
+- [![github]][github/nvm] **`nvm`** — Node Version Manager.
+- [![github]][github/nvs] **`nvs`** — Node Version Switcher.
 
 ### Browser/JavaScript engines:
 
