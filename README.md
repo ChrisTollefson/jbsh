@@ -27,6 +27,17 @@ TODO
 
 TODO
 
+> Linux ladies *love* installing `matt-daemon`...
+
+```Shell
+finger
+mount
+unzip
+strip
+touch
+more
+yes yes
+```
 
 ## Usage
 
