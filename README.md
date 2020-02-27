@@ -545,7 +545,7 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
 
 ## License
 
-Copyright © 2020 [jsonbash authors and contributors](https://github.com/ChrisTollefson/jsonbash/graphs/contributors).
-
 Licensed under the [MIT License](https://opensource.org/licenses/MIT).
 See [LICENSE.md](https://github.com/ChrisTollefson/jsonbash/blob/master/LICENSE.md).
+
+Copyright © 2020 [jsonbash authors and contributors](https://github.com/ChrisTollefson/jsonbash/graphs/contributors).
