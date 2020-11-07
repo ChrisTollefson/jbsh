@@ -226,6 +226,8 @@ This situation might be similar to that of the original [Bourne shell][`sh`], wh
     * `js`: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey/Introduction_to_the_JavaScript_shell
     * `jsdb` (2012): http://www.jsdb.org/
     * `jls` (2017): http://javalikescript.free.fr/
+  * JavaScriptCore (Safari)
+    * `jsc`: TODO
 
 - [Lisp]:
   - `sbcl`: http://www.sbcl.org/getting.html
